@@ -18,8 +18,8 @@ Module.expectedDataFileDownloads++;
     } else {
       throw 'using preloaded data can only be done on a web page or in a web worker';
     }
-    var PACKAGE_NAME = 'D:/MyTildaSite/Binaries/HTML5/MyTildaSite-HTML5-Shipping.data';
-    var REMOTE_PACKAGE_BASE = 'MyTildaSite-HTML5-Shipping.data';
+    var PACKAGE_NAME = 'https://dl.dropboxusercontent.com/scl/fi/ssg6x8lbbqzfp8thar8e2/MyTildaSite-HTML5-Shipping.data?rlkey=027e95ltt4k12bwz11vy0cu2d&st=t8yr4nbc&dl=0';
+    var REMOTE_PACKAGE_BASE = 'https://dl.dropboxusercontent.com/scl/fi/ssg6x8lbbqzfp8thar8e2/MyTildaSite-HTML5-Shipping.data?rlkey=027e95ltt4k12bwz11vy0cu2d&st=t8yr4nbc&dl=0';
     if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
       Module['locateFile'] = Module['locateFilePackage'];
       err('warning: you defined Module.locateFilePackage, that has been renamed to Module.locateFile (using your locateFilePackage for now)');
